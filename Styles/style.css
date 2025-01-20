@@ -103,7 +103,90 @@ border: none;
 }
 
 
-@media screen and (max-width:576px) {
+
+
+  /* card section */
+  .card-container{
+    display: flex;
+    text-align: center;
+   justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .card1{
+    box-sizing: border-box;
+border: 0.94px solid rgb(222, 245, 255);
+border-radius: 18.86px;
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+  }
+
+
+  .card2{
+    box-sizing: border-box;
+border: 0.94px solid rgb(255, 244, 220);
+border-radius: 18.86px;
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+
+  }
+
+
+  .card3{
+    box-sizing: border-box;
+border: 0.94px solid rgb(242, 232, 255);
+border-radius: 18.86px;
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+  }
+
+  .card{
+    padding: 20px;
+    width: 320px;
+  }
+
+  .card-title{
+    color: rgb(32, 32, 32);
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .card-discription{
+    color: rgb(128, 128, 128);
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: "Raleway", serif;
+  }
+
+  .card-section{
+    background-image: url(../assets/bg.png);
+    margin-top: 60px;
+    text-align: center;
+}
+  .card-section h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  
+  .same{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top: 25px;
+  }
+
+  .read-1{
+    color: rgb(100, 200, 255);
+  }
+
+  .read-2{
+    color: rgb(240, 170, 0);
+  }
+
+  .read-3{
+    color: rgb(135, 0, 255);
+  }
+
+  @media screen and (max-width:576px) {
     ul , .hide{
         display: none;
         
@@ -132,5 +215,39 @@ border: none;
         font-size: 2rem;
         font-weight: 700;
     }
-      
+
+    /* card section */
+    .card-container{
+        flex-direction: column;
+        margin: 0 auto;
+    }
   }
+
+  .hide{
+    display: none;
+  }
+
+  /* arrw section */
+  .arrow img{
+         width: 35px;
+         height: 35px;
+         background: rgb(254, 163, 1);
+         border-radius: 50%;
+}
+
+.arrow{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 8px;
+   margin-top: 60px;
+}
+
+/* box style */
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr
+    );
+    grid-template-rows: repeat(3,200px) 50px 50px;
+    gap: 20px;
+}
