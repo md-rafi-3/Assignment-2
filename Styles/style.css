@@ -244,10 +244,59 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 }
 
 /* box style */
+.story-section{
+    background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
 .box-container{
     display: grid;
-    grid-template-columns: repeat(4,1fr
+    grid-template-columns: repeat(3,1fr
     );
-    grid-template-rows: repeat(3,200px) 50px 50px;
+    grid-template-rows: repeat(2,1fr);
     gap: 20px;
+    border: 1px solid;
+    gap: 20px;
+    justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+  padding: 50px;
 }
+
+
+.box{
+    width: 290px;
+    height: 301px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    
+}
+#box-1{
+    grid-row: span 2;
+    width: 540px;
+    height: 630px;
+}
+.box img{
+    width: 100%;
+}
+
+.box-title1{
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+.box-discription{
+    font-size: 0.9rem;
+    color: rgb(102, 102, 102);
+    font-weight: 500;
+    font-family: "Raleway", serif;
+    margin-top: 40px;
+}
+
+.box-title{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
