@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Quicksand", serif;
+    /* font-family: "Raleway", serif; */
+}
+
+/* shared styles */
+.font-1{
+font-size: 1.15rem;
+font-weight: 700;
+
+}
+
+/* Header Styles */
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    align-items: center;
+}
+ li a{
+    text-decoration: none;
+ }
+
+ .a1{
+    color: rgb(254, 163, 1);
+ }
+ .a2{
+    color: rgb(1, 172, 253);
+ }
+
+ .a3{
+    color: rgb(5, 212, 223);
+ }
+
+ .a4{
+    color: rgb(93, 88, 239);
+ }
+
+
+ .btn-primary{
+    border-radius: 12px;
+/* Orange */
+background: rgb(254, 163, 1);
+color: rgb(255,255,255);
+font-size: 1rem;
+font-weight: 600;
+padding: 10px;
+border: none;
+ }
+
+/* banner styles */
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-content{
+    width: 50%;
+}
+
+.banner-title{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.span-1{
+    color: rgb(254, 163, 1);
+}
+
+.span-2{
+    color: rgb(1, 172, 253);
+}
+
+.banner-discription{
+    font-size: 1.1rem;
+    color: rgb(17, 17, 17);
+    font-weight: 400;
+}
+
+.btn-primary2{
+    border-radius: 12px;
+background: rgb(17, 17, 17);
+color: rgb(255,255,255);
+font-size: 1.1rem;
+font-weight: 700;
+padding: 10px;
+border: none;
+}
+
+
+@media screen and (max-width:576px) {
+    ul , .hide{
+        display: none;
+        
+    }
+  
+    .container{
+      align-items: center;
+     justify-content: space-around;
+      border-bottom: 0.5px solid rgb(254, 163, 1);;
+    }
+    /* banner section */
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+
+    .banner-img img{
+        width: 100%;
+    }
+
+    .banner-content{
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-title{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+      
+  }
