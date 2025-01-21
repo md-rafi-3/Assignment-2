@@ -564,3 +564,154 @@ marquee{
 }
   }
 
+
+  /* /* medium device */
+  @media screen and (min-width:576px) and (max-width:992px) {
+    .arrow img{
+      display: none;
+    }
+  
+    /* header */
+    
+    .container{
+      justify-content: space-around;
+      align-items: center;
+      gap: 75px;
+    }
+    header{
+     border-bottom:0.5px solid rgb(254, 163, 1);
+  
+    }
+  
+    /* banner-section */
+    .banner-container{
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+    .banner-img img{
+      width: 100%;
+    }
+  
+    .banner-title{
+      font-size: 2.1rem;
+      font-weight: 700;
+      text-align: center;
+    }
+  
+    .banner-title br{
+      display: none;
+    }
+    .banner-content{
+     width: 100%;
+    }
+  
+    .banner-discription{
+      font-size: 1.2rem;
+      text-align: center;
+    }
+    /* Card */
+    
+  
+    .card-section h1{
+      font-size: 2rem;
+    }
+    /* story */
+    #box-1{
+      display: none;
+    }
+  
+    .box-container{
+      grid-template-columns: repeat(4,1fr);
+      padding: 5px;
+      gap: 10px;
+    }
+  
+    .box{
+      max-width: 290px;
+      max-height: 300px;
+      position: static;
+      
+      
+    }
+  
+    .box img{
+      width: 100%;
+    } 
+  
+    .box-title{
+      font-size: 0.9rem;
+      margin-top: 0px;
+    }
+  
+    .box-btn{
+      font-size: 1rem;
+      font-weight: 500;
+      
+    }
+  
+    .btn-primary2{
+      font-size: 1rem;
+      border-radius: 12px;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  
+    /* footer */
+    .footer-container{
+      flex-direction: column;
+      justify-content: left;
+      align-items: stretch;
+      
+    }
+  
+    .footer-logo h2{
+      font-size: 2.2rem;
+      font-weight: 700;
+    }
+  
+    
+  
+    .footer-discription{
+      font-size: 1.1rem;
+      font-weight: 400;
+    }
+  
+    .footer-center h3{
+      text-align: left;
+      padding-left: 10px;
+    }
+  
+    .footer-center ul{
+      gap: 17px;
+      font-size: 1.1rem;
+      font-weight: 500;
+      padding-left: 10px;
+    }
+  
+    .footer-right h3{
+      font-size: 1.3rem;
+      font-size: 600;
+  
+    }
+  
+    .footer-links{
+      justify-content: left;
+      padding-left: 10px;
+      
+    }
+  
+    .footer-right h3{
+      padding-left: 10px;
+      font-size: 1.4rem;
+      font-weight: 700;
+    }
+  .card-section {
+    background-image: url(../assets/bg.png);
+  }
+  
+  .story-section{
+    background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+  }
+    
+  }
+
