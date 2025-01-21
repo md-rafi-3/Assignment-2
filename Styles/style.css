@@ -37,22 +37,27 @@ ul{
 
  .a1{
     color: rgb(254, 163, 1);
+    transition-duration: 0.2s;
  }
  .a2{
     color: rgb(1, 172, 253);
+    transition-duration: 0.2s;
  }
 
  .a3{
     color: rgb(5, 212, 223);
+    transition-duration: 0.2s;
  }
 
  .a4{
     color: rgb(93, 88, 239);
+    transition-duration: 0.2s;
  }
 
 
  .btn-primary{
     border-radius: 12px;
+    transition-duration: 0.2s;
 /* Orange */
 background: rgb(254, 163, 1);
 color: rgb(255,255,255);
@@ -298,6 +303,7 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 .story-btn{
   border-radius: 5px;
   padding: 10px 20px 10px 20px;
+ transition-duration: 0.2s;
 }
 
 .btn-div{
@@ -715,3 +721,15 @@ marquee{
     
   }
 
+  .btn-hover:hover{
+    background-color: #9B4DFF;
+    color: white;
+  }
+
+  .btn-orange:hover{
+    background-color: #D8B6FF;
+    
+    border-radius: 5px;
+  }
+
+  
