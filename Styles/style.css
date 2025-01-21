@@ -434,7 +434,45 @@ footer{
     display: none;
   }
 
-  /* box section */
-  
+  /* header */
+  nav{
+    display: none;
+  }
+  .container{
+    justify-content: space-between;
+    align-items: center;
+  }
+  header{
+   border-bottom:0.5px solid rgb(254, 163, 1);
+
+  }
+
+  /* banner-section */
+  .banner-container{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .banner-img img{
+    width: 100%;
+  }
+
+  .banner-title{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .banner-title br{
+    display: none;
+  }
+  .banner-content{
+   width: 100%;
+  }
+
+  .banner-discription{
+    font-size: 1rem;
+    text-align: center;
+  }
+
   }
 
