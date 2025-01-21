@@ -143,7 +143,7 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 
   .card{
     padding: 20px;
-    width: 320px;
+   max-width: 320px;
   }
 
   .card-title{
@@ -229,8 +229,8 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 
   /* arrw section */
   .arrow img{
-         width: 35px;
-         height: 35px;
+         max-width: 35px;
+        max-height: 35px;
          background: rgb(254, 163, 1);
          border-radius: 50%;
 }
@@ -245,37 +245,36 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 
 /* box style */
 .story-section{
-    background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    margin-top: 60px;
+  background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
 }
+
+
 .box-container{
     display: grid;
-    grid-template-columns: repeat(3,1fr
-    );
-    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: 540px 290px 290px;
     gap: 20px;
-    border: 1px solid;
-    gap: 20px;
-    justify-content: space-evenly;
-  justify-items: center;
-  align-content: space-evenly;
-  align-items: center;
-  padding: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+     
+  
 }
 
 
 .box{
-    width: 290px;
-    height: 301px;
+   max-width: 290px;
+    max-height: 301px;
     border-radius: 16px;
     background: rgb(255, 255, 255);
     padding: 10px;
-    text-align: center;
-    
+    position: relative;
+   
 }
 #box-1{
     grid-row: span 2;
-    width: 540px;
-    height: 630px;
+   max-width: 540px;
+    max-height: 630px;
 }
 .box img{
     width: 100%;
@@ -284,6 +283,7 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 .box-title1{
     font-size: 1.5rem;
     font-weight: 700;
+    text-align: center;
 
 }
 
@@ -293,10 +293,54 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     font-weight: 500;
     font-family: "Raleway", serif;
     margin-top: 40px;
+    text-align: center;
 }
 
 .box-title{
     font-size: 1rem;
     font-weight: 700;
+    text-align: center;
 }
 
+.box-btn{
+  color: rgb(238, 225, 255);
+  font-size: 1rem;
+  font-family: "Raleway", serif;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 47.93px;
+  border: none;
+  position: relative;
+  top: -23px;
+  left: 20px;
+ 
+}
+
+.btn1{
+  background: rgb(60, 216, 232);
+}
+.btn2 , .btn4 , .btn5{
+  background: rgb(149, 178, 38);
+}
+
+.btn3{
+  background: rgb(93, 88, 240);
+}
+
+.story-section h1{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.story-btn{
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+}
+
+.btn-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
