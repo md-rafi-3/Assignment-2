@@ -793,7 +793,4 @@ marquee{
 
   body{
     max-width: fit-content;
-    min-width: fit-content;
-    margin: auto;
   }
-
