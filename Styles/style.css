@@ -581,6 +581,10 @@ marquee{
 .logo h1{
   display: none;
 }
+.fa-bars{
+  display: inline-block;
+ } 
+
   }
 
 
@@ -737,6 +741,9 @@ marquee{
   }
 
   /* hover */
+  .fa-bars{
+    display: inline-block;
+   } 
   
   }
 
@@ -782,3 +789,8 @@ marquee{
     background-color: #9B4DFF;
     color: white;
   }
+
+  .fa-bars{
+    display: none;
+   } 
+  
