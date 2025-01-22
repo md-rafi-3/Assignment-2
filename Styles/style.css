@@ -427,10 +427,16 @@ marquee{
     display: none;
   }
   .container{
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    gap: 75px;
+    padding: 5px;
+    
   }
+
+  
+
+  
+  
   header{
    border-bottom:0.5px solid rgb(254, 163, 1);
 
@@ -569,6 +575,10 @@ marquee{
   background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
 }
 .btn-primary{
+  display: none;
+}
+
+.logo h1{
   display: none;
 }
   }
