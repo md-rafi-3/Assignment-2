@@ -582,6 +582,9 @@ marquee{
   display: none;
 }
 
+.fa-bars{
+  display: block !important;
+}
 
   }
 
@@ -739,7 +742,9 @@ marquee{
   }
 
   /* hover */
-  
+  .fa-bars{
+    display: block !important;
+  }
   
   }
 
