@@ -721,15 +721,45 @@ marquee{
     
   }
 
+  /* btn-hover */
+
   .btn-hover:hover{
     background-color: #9B4DFF;
     color: white;
   }
 
   .btn-orange:hover{
-    background-color: #D8B6FF;
-    
+    background-color: #9B4DFF;;
+    color: white;
     border-radius: 5px;
   }
 
-  
+  .btn-hover,.btn-orange{
+    transition:  0.35s ease, color 0.35s ease;
+  }
+ 
+
+  .same:hover{
+    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    display: inline;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .same,.box-btn-hover{
+    transition:  0.35s ease, color 0.35s ease;
+  }
+
+  .arrow img:hover{
+    background-color: white;
+  }
+
+  .arrow img{
+    transition:  0.35s ease, color 0.35s ease;
+  }
+
+  .box-btn-hover:hover{
+    background-color: #9B4DFF;
+    color: white;
+  }
